@@ -24,4 +24,5 @@ urlpatterns = [
         "api/event_management/",
         include("event_management.urls", namespace="event_management"),
     ),
+    path("api/user/", include("user.urls", namespace="user")),
 ]
